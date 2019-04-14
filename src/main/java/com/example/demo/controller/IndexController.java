@@ -11,5 +11,10 @@ public class IndexController {
 	@RequestMapping("test")
 	public String index() {
 		return "hello spring boot";
+
+	}
+	@RequestMapping("hello")
+	public String hello() {
+		return "hello spring boot";
 	}
 }
